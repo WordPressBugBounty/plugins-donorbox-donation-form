@@ -6,7 +6,7 @@ Description: This plugin will embed Donorbox Donation Form to your site using sh
 Author: rebelidealist
 Author URI: https://donorbox.org
 Tags: donation, donations, nonprofit, nonprofits, fundraising, payment, payments, crowdfunding, campaign, stripe, campaigns, social causes, causes, credit card, credit cards
-Version: 7.1.10
+Version: 7.1.11
 License: GPLv2 or later.
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 */
@@ -79,7 +79,7 @@ class Donorbox_donation_form {
      * Campaign details input
      */
     public function donorbox_embed_campaign_id_settings() { ?>
-        <input name="donorbox_embed_campaign_options[donorbox_embed_campaign_id]" type="text" value="<?php echo esc_url($this->options['donorbox_embed_campaign_id']); ?>" class="regular-text" />
+        <input name="donorbox_embed_campaign_options[donorbox_embed_campaign_id]" type="text" value="<?php echo esc_url(isset($this->options['donorbox_embed_campaign_id']) ? $this->options['donorbox_embed_campaign_id'] : ''); ?>" class="regular-text" />
         <?php
     }
 }

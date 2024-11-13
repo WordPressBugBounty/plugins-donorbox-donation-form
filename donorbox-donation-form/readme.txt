@@ -5,8 +5,8 @@ Author URI: https://donorbox.org
 Donate link: https://donorbox.org
 Tags: donation, donations, nonprofit, nonprofits, fundraising, payment, payments, crowdfunding, campaign, stripe, campaigns, social causes, causes, credit card, credit cards
 Requires at least: 3.0
-Tested up to: 6.4.1
-Stable tag: 7.1.10
+Tested up to: 6.7
+Stable tag: 7.1.11
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -236,6 +236,9 @@ Donorbox donations forms are localized in Spanish, French, German, Italian, Port
 9. Settings page
 
 == Changelog ==
+= 7.1.11 =
+* Compatibiliy updates with new wordpress version.
+
 = 7.1.10 =
 * MINOR FIXES: Prevent warning message "URL" as an undefined value.
 
